@@ -1,0 +1,73 @@
+2023-12-01 15:16:10.520 [main] org.example.back.JsonProcessing:25 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-01 15:16:10.522 [main] org.example.back.JsonProcessing:35 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-01 15:16:10.540 [main] org.example.back.JsonProcessing:49 ERROR org.example.back.JsonProcessing - src\main\data\users.json (The system cannot find the path specified)
+2023-12-01 15:16:13.018 [main] org.example.Main:32 ERROR org.example.Main - An error occurred
+java.lang.RuntimeException: Got an exception when reading from users json file
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:50) ~[classes/:?]
+	at org.example.back.JsonProcessing.<init>(JsonProcessing.java:30) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:22) ~[classes/:?]
+	at org.example.Main.main(Main.java:17) [classes/:?]
+Caused by: java.io.FileNotFoundException: src\main\data\users.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:38) ~[classes/:?]
+	... 3 more
+2023-12-01 15:16:15.205 [main] org.example.Main:35 TRACE org.example.Main - Application exiting
+2023-12-01 15:16:36.389 [main] org.example.back.JsonProcessing:25 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-01 15:16:36.391 [main] org.example.back.JsonProcessing:35 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-01 15:16:36.430 [main] org.example.back.JsonProcessing:46 INFO  org.example.back.JsonProcessing - All data from src/main/data\users.json was saved to userList
+2023-12-01 15:16:36.433 [main] org.example.back.JsonProcessing:60 INFO  org.example.back.JsonProcessing - All data from src/main/data\banks.json was read to bankList
+2023-12-01 15:16:36.433 [main] org.example.back.JsonProcessing:66 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-01 15:16:36.433 [main] org.example.back.JsonProcessing:31 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-01 15:16:36.435 [main] org.example.back.Login:28 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-01 15:16:36.435 [main] org.example.back.Login:31 INFO  org.example.back.Login - Enter username
+2023-12-01 15:16:40.490 [main] org.example.back.Login:35 INFO  org.example.back.Login - Enter password
+2023-12-01 15:16:41.934 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-01 15:16:41.935 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-01 15:16:41.951 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: xAMImfY7toQGMj9Y2Ke82Rg48ViT7hKxys7OzA3OQI4=
+2023-12-01 15:16:41.952 [main] org.example.back.JsonProcessing:98 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-01 15:16:41.952 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-01 15:16:41.952 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-01 15:16:41.952 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: DR860c52WqMIGDWF2p2Xmtjb16QDi5+Nv2kl9swpN/k=
+2023-12-01 15:16:41.953 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-01 15:16:41.953 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-01 15:16:41.953 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: DR860c52WqMIGDWF2p2Xmtjb16QDi5+Nv2kl9swpN/k=
+2023-12-01 15:16:41.953 [main] org.example.back.JsonProcessing:105 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-01 15:16:41.953 [main] org.example.back.Login:45 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-01 15:16:41.953 [main] org.example.Main:20 TRACE org.example.Main - Application started
+2023-12-01 15:16:41.953 [main] org.example.Main:23 INFO  org.example.Main - Initializing menu...
+2023-12-01 15:16:41.953 [main] org.example.back.Menu:33 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-01 15:16:44.433 [main] org.example.pattern.PrintUserLoans:14 INFO  org.example.pattern.PrintUserLoans - Creating PrintUserLoans instance.
+2023-12-01 15:16:44.434 [main] org.example.pattern.PrintUserLoans:21 INFO  org.example.pattern.PrintUserLoans - Executing PrintUserLoans command.
+2023-12-01 15:16:44.434 [main] org.example.pattern.PrintUserLoans:31 INFO  org.example.pattern.PrintUserLoans - Printing user loans.
+2023-12-01 15:16:44.438 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 1: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 13 300 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.438 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 2: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 2,66 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.439 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 3: Bank: Monobank
+Loan B Home improvement loan -- 4.8%
+Sum of the loan: 1 168 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.439 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 4: Bank: Bank XYZ
+Loan Y Home mortgage -- 5.2%
+Sum of the loan: 2 702 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.439 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 5: Bank: Monobank
+Loan C Education loan -- 6.2%
+Sum of the loan: 4 294 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.440 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 6: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 27 838,23 -- Date of the loan: 2023-12-01
+
+2023-12-01 15:16:44.440 [main] org.example.back.Menu:33 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-01 15:16:52.330 [main] org.example.Main:28 ERROR org.example.Main - This is sample error to check how mailer and buffer logs work
+2023-12-01 15:16:54.889 [main] org.example.Main:29 INFO  org.example.Main - Application completed successfully
+2023-12-01 15:16:54.890 [main] org.example.Main:35 TRACE org.example.Main - Application exiting
