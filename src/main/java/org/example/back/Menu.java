@@ -23,7 +23,7 @@ public class Menu {
         this.banks = jsonManager.getBankList();
         this.command = null;
 
-        Login loginCommand = new Login(scanner, jsonManager);
+        Login loginCommand = new Login(jsonManager);
         this.loanUser = loginCommand.getCurrentUser();
     }
 

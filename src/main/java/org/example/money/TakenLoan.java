@@ -2,7 +2,7 @@ package org.example.money;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.example.back.DateConvertion;
+import org.example.back.DateToString;
 import org.example.login.LoanUser;
 
 import java.text.MessageFormat;
@@ -62,7 +62,7 @@ public class TakenLoan {
         for (int i = 0; i < innerLoan.getInterval(); i++) {
             // FORMULA THAT HELPS CALCULATE IN WHICH MONTH I WILL BE PAYING
             if (i % (innerLoan.getInterval() / (innerLoan.getPaysAmount())) == 0) {
-                System.out.printf("Date of payments: %s -- %f\n", DateConvertion.execute(getDate(), i), getTotalAmount() / innerLoan.getPaysAmount());
+                System.out.printf("Date of payments: %s -- %f\n", DateToString.dateToStringAndPlusMonth(getDate(), i), getTotalAmount() / innerLoan.getPaysAmount());
             }
         }
         System.out.printf("Total sum to paid -- %f\n", getTotalAmount());

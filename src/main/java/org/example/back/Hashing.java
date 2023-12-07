@@ -6,40 +6,55 @@ import org.apache.logging.log4j.Logger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
+import javax.xml.bind.DatatypeConverter;
 
 public class Hashing {
     private static final Logger logger = LogManager.getLogger(Hashing.class);
-
-    private String password;
-    private String salt;
+    private final MessageDigest digest;
+    private final String password;
+    private final String salt;
+    private final String stringToHash;
 
     public Hashing(String password, String salt) {
         this.password = password;
         this.salt = salt;
+        this.stringToHash = combinePasswordAndSalt();
+
+        // GET HASHING ALGO FROM JAVA LIB
+        try {
+            digest = MessageDigest.getInstance("SHA-256");
+        } catch (NoSuchAlgorithmException e) {
+            logger.error("Error while getting the instance of hash algorithm SHA-256: " + e.getMessage());
+            throw new RuntimeException("Invalid hashing algorithm", e);
+        }
+
     }
 
-    public String combinePasswordAndSalt() {
-        logger.info("Combining password and salt.");
+    String combinePasswordAndSalt() {
+        logger.trace("Combining password and salt.");
         // MAKE MORE SECURE CONCATENATION
         return password + salt;
     }
 
-    public String SHA256() {
-        logger.info("Executing SHA256 hashing.");
+    public String hash() {
+        logger.trace("Starting [String hash256()] function");
+        byte[] hashBytes = digest.digest(stringToHash.getBytes());
 
-        String data = combinePasswordAndSalt();
-        MessageDigest digest = null;
-        try {
-            digest = MessageDigest.getInstance("SHA-256");
-        } catch (NoSuchAlgorithmException e) {
-            logger.error("Error creating MessageDigest: {}", e.getMessage());
-            throw new RuntimeException("Invalid hashing algorithm", e);
+        // Convert the byte array to a hexadecimal string
+        StringBuilder hexString = new StringBuilder();
+        for (byte b : hashBytes) {
+            hexString.append(String.format("%02X", b));
         }
 
-        byte[] hashBytes = digest.digest(data.getBytes());
-        String result = Base64.getEncoder().encodeToString(hashBytes);
+        logger.trace("Ending [String hash256()]");
+        return hexString.toString();
+    }
 
-        logger.info("Hashing result: {}", result);
-        return result;
+    public String SHA256() {
+        logger.trace("Starting [String hash256()] function");
+
+        logger.trace("Ending [String hash256()]");
+        byte[] hashBytes = digest.digest(stringToHash.getBytes());
+        return Base64.getEncoder().encodeToString(hashBytes);
     }
 }

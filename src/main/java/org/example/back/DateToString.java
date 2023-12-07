@@ -7,12 +7,12 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 
-public class DateConvertion {
-    private static final Logger logger = LogManager.getLogger(DateConvertion.class);
+public class DateToString {
+    private static final Logger logger = LogManager.getLogger(DateToString.class);
 
-    public static String execute(String dateString, int i) {
+    public static String dateToStringAndPlusMonth(String dateString, int i) {
         try {
-            logger.info("Executing DateConvertion with dateString: {} and i: {}", dateString, i);
+            logger.info("Date to string: {} -- {}", dateString, i);
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             LocalDate date = LocalDate.parse(dateString, formatter);
