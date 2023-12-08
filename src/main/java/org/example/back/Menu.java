@@ -17,9 +17,11 @@ public class Menu {
     private final JsonProcessing jsonManager;
     private Command command;
 
-    public Menu(String jsonPath) {
+    public Menu() {
         this.scanner = new Scanner(System.in);
-        this.jsonManager = new JsonProcessing(jsonPath);
+        this.jsonManager = new JsonProcessing();
+        jsonManager.loadData();
+
         this.banks = jsonManager.getBankList();
         this.command = null;
 
@@ -52,7 +54,7 @@ public class Menu {
                     command = new FindBestLoan(scanner, banks);
                     break;
                 case "/info":
-                    command = new InfoAboutPays(scanner, loanUser);
+                    command = new InfoAboutPays(loanUser);
                     break;
                 case "/pay":
                     command = new PayLoanCommand(scanner, loanUser);

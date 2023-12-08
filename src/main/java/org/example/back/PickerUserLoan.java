@@ -14,8 +14,8 @@ public class PickerUserLoan {
     private Scanner scanner;
     private LoanUser currentUser;
 
-    public PickerUserLoan(Scanner scanner, LoanUser currentUser) {
-        this.scanner = scanner;
+    public PickerUserLoan(LoanUser currentUser) {
+        this.scanner = new Scanner(System.in);
         this.currentUser = currentUser;
     }
 

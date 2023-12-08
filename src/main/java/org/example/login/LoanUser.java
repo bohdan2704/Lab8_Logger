@@ -7,9 +7,7 @@ import org.example.money.Loan;
 import org.example.money.TakenLoan;
 
 import java.time.LocalDate;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class LoanUser {
     private static final Logger logger = LogManager.getLogger(LoanUser.class);
@@ -17,21 +15,14 @@ public class LoanUser {
     private static int maxSizeOfLoans = 3;
     private String name;
     private String password;
-    private String dateOfBirth;
-    private String phoneNumber;
-    private String email;
     private String address;
     private double yearIncome;
-    private double regularMonthlyIncome;
-    private String workPlace; // UNIVERSITY, NOT EMPLOYED
     private List<TakenLoan> loanHistory;
 
-    //    public LoanUser() {
-//    }
-    public LoanUser(Scanner scanner) {
+    public LoanUser(boolean notDefaultConstructor) {
         logger.info("Creating LoanUser instance with user input.");
-        readUserInput(scanner);
-        loanHistory = new LinkedList<>();
+        readUserInput();
+        loanHistory = new ArrayList<>();
     }
 
     public LoanUser(String name, String password) {
@@ -39,7 +30,8 @@ public class LoanUser {
         this.password = password;
     }
 
-    private void readUserInput(Scanner scanner) {
+    private void readUserInput() {
+        Scanner scanner = new Scanner(System.in);
         logger.info("Reading user input for LoanUser.");
 
         System.out.print("Enter your name: ");
@@ -54,22 +46,11 @@ public class LoanUser {
         password = hashing.SHA256();
 
         // WE ALREADY HAVE THAT INFORMATION PASSED
-        System.out.print("Enter your phone number: ");
-        phoneNumber = scanner.nextLine();
-        System.out.print("Enter your email: ");
-        email = scanner.nextLine();
-        System.out.print("Enter your birthday: ");
-        dateOfBirth = scanner.nextLine();
         System.out.print("Enter your address: ");
         address = scanner.nextLine();
         System.out.print("Enter your income from the previous year: ");
         yearIncome = scanner.nextDouble();
         scanner.nextLine(); // Remove Enter from the input buffer
-        System.out.print("Enter your regular salary: ");
-        regularMonthlyIncome = scanner.nextDouble();
-        scanner.nextLine(); // Remove Enter from the input buffer
-        System.out.print("Enter your work place: ");
-        workPlace = scanner.nextLine();
     }
 
     public void takeLoan(double sum, Loan loan, String bank) {
@@ -92,5 +73,17 @@ public class LoanUser {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof LoanUser loanUser)) return false;
+        return Double.compare(yearIncome, loanUser.yearIncome) == 0 && Objects.equals(getName(), loanUser.getName()) && Objects.equals(getPassword(), loanUser.getPassword()) && Objects.equals(address, loanUser.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getPassword(), address, yearIncome);
     }
 }

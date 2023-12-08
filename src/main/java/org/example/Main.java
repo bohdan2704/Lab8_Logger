@@ -17,8 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            String jsonPath = "src/main/data";
-            Menu menu = new Menu(jsonPath);
+            Menu menu = new Menu();
 
             // Log a trace message
             logger.trace("Application started");

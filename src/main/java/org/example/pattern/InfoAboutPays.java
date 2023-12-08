@@ -6,17 +6,15 @@ import org.example.back.PickerUserLoan;
 import org.example.login.LoanUser;
 import org.example.money.TakenLoan;
 
-import java.util.Scanner;
-
 public class InfoAboutPays implements Command {
     private static final Logger logger = LogManager.getLogger(InfoAboutPays.class);
 
     private final PickerUserLoan pickUserLoan;
 
-    public InfoAboutPays(Scanner scanner, LoanUser currentUser) {
+    public InfoAboutPays(LoanUser currentUser) {
         logger.info("Creating InfoAboutPays instance.");
 
-        this.pickUserLoan = new PickerUserLoan(scanner, currentUser);
+        this.pickUserLoan = new PickerUserLoan(currentUser);
     }
 
     @Override

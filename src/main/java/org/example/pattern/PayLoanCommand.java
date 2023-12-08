@@ -19,7 +19,7 @@ public class PayLoanCommand implements Command {
         logger.info("Creating PayLoanCommand instance.");
 
         this.scanner = scanner;
-        this.pickUserLoan = new PickerUserLoan(scanner, currentUser);
+        this.pickUserLoan = new PickerUserLoan(currentUser);
         this.currentUser = currentUser;
     }
 

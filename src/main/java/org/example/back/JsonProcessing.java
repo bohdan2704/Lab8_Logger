@@ -10,6 +10,8 @@ import org.example.data.Bank;
 import org.example.login.LoanUser;
 
 import java.io.*;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -18,20 +20,25 @@ public class JsonProcessing {
 
     private final List<Bank> bankList;
     private final List<LoanUser> userList;
-    private String jsonUsersListPath;
-    private String jsonBanksListPath;
+    private final String jsonUsersListPath;
+    private final String jsonBanksListPath;
 
-    public JsonProcessing(String jsonPath) {
+    public JsonProcessing() {
         logger.trace("JsonProcessing constructor started");
-        jsonUsersListPath = jsonPath + "\\users.json";
-        jsonBanksListPath = jsonPath + "\\banks.json";
-        this.bankList = new LinkedList<>();
-        this.userList = new LinkedList<>();
-        loadData();
+        ClassLoader classLoader = getClass().getClassLoader();
+        try {
+            jsonUsersListPath = new File(classLoader.getResource("data/users.json").toURI()).getPath();
+            jsonBanksListPath = new File(classLoader.getResource("data/banks.json").toURI()).getPath();
+        } catch (Exception e) {
+            throw new RuntimeException("Error when loading files", e);
+        }
+
+        this.bankList = new ArrayList<>();
+        this.userList = new ArrayList<>();
         logger.trace("JsonProcessing constructor ended");
     }
 
-    private void loadData() {
+    public void loadData() {
         logger.trace("Method loadData() started");
 
         Gson gson = new Gson();
@@ -115,5 +122,13 @@ public class JsonProcessing {
         logger.warn("Username is not found: {}", name);
         logger.warn("Method returned null value when ended");
         return null;
+    }
+
+    public String getJsonUsersListPath() {
+        return jsonUsersListPath;
+    }
+
+    public String getJsonBanksListPath() {
+        return jsonBanksListPath;
     }
 }
