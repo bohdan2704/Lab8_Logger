@@ -53,12 +53,12 @@ public class Menu {
                 case "/bestloan":
                     command = new FindBestLoan(banks);
                     break;
-                case "/info":
-                    command = new InfoAboutPays(loanUser);
-                    break;
-                case "/pay":
-                    command = new PayLoanCommand(scanner, loanUser);
-                    break;
+//                case "/info":
+//                    command = new InfoAboutPays(loanUser);
+//                    break;
+//                case "/pay":
+//                    command = new PayLoanCommand(scanner, loanUser);
+//                    break;
                 case "/print":
                     command = new PrintUserLoans(loanUser);
                     break;

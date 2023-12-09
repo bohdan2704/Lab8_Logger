@@ -4,6 +4,141 @@
     "password": "xAMImfY7toQGMj9Y2Ke82Rg48ViT7hKxys7OzA3OQI4\u003d",
     "address": "Lviv, UK",
     "yearIncome": 1000.0,
-    "loanHistory": []
+    "loanHistory": [
+      {
+        "totalAmount": 30590.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-08",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 16212.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-08",
+        "paysLeft": 4,
+        "loan": {
+          "percent": 0.052,
+          "interval": 12,
+          "paysAmount": 4,
+          "name": "Loan Y",
+          "description": "Home mortgage"
+        },
+        "bank": "Bank XYZ"
+      },
+      {
+        "totalAmount": 1330.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-09",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 1330.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-09",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 1330.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-09",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 1330.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-09",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 1330.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-09",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      }
+    ]
+  },
+  {
+    "name": "Lesha",
+    "password": "FYhC0yLX/KuIeApUZBSzMH6ZbodR6rY4cIewuMnqoBQ\u003d",
+    "address": "Burshtyn",
+    "yearIncome": 1999.0,
+    "loanHistory": [
+      {
+        "totalAmount": 30590.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-08",
+        "paysLeft": 6,
+        "loan": {
+          "percent": 0.055,
+          "interval": 12,
+          "paysAmount": 6,
+          "name": "Loan A",
+          "description": "This is a loan for a car"
+        },
+        "bank": "Monobank"
+      },
+      {
+        "totalAmount": 16212.0,
+        "paidAmount": 0.0,
+        "takenDate": "2023-12-08",
+        "paysLeft": 4,
+        "loan": {
+          "percent": 0.052,
+          "interval": 12,
+          "paysAmount": 4,
+          "name": "Loan Y",
+          "description": "Home mortgage"
+        },
+        "bank": "Bank XYZ"
+      }
+    ]
   }
 ]
