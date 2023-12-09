@@ -51,7 +51,7 @@ public class Menu {
                     command = new AllLoans(banks);
                     break;
                 case "/bestloan":
-                    command = new FindBestLoan(scanner, banks);
+                    command = new FindBestLoan(banks);
                     break;
                 case "/info":
                     command = new InfoAboutPays(loanUser);

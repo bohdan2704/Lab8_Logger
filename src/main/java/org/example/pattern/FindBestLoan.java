@@ -16,7 +16,8 @@ public class FindBestLoan implements Command {
     private int toInteval;
     private List<Bank> banks;
 
-    public FindBestLoan(Scanner scanner, List<Bank> banks) {
+    public FindBestLoan(List<Bank> banks) {
+        Scanner scanner = new Scanner(System.in);
         logger.info("Creating FindBestLoan instance.");
 
         System.out.print("Enter from which interval carry out search (in month): ");
@@ -45,6 +46,6 @@ public class FindBestLoan implements Command {
                 }
             }
         }
-        System.out.println(topProposals);
+        System.out.println(topProposals.getBestProposition());
     }
 }

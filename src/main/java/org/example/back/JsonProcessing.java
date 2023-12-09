@@ -38,6 +38,16 @@ public class JsonProcessing {
         logger.trace("JsonProcessing constructor ended");
     }
 
+    public JsonProcessing(String jsonUsersListPath, String jsonBanksListPath) {
+        logger.trace("JsonProcessing constructor started");
+        this.jsonUsersListPath = jsonUsersListPath;
+        this.jsonBanksListPath = jsonBanksListPath;
+
+        this.bankList = new ArrayList<>();
+        this.userList = new ArrayList<>();
+        logger.trace("JsonProcessing constructor ended");
+    }
+
     public void loadData() {
         logger.trace("Method loadData() started");
 

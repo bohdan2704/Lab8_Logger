@@ -46,8 +46,7 @@ public class Top {
         logger.info("Entry inserted or ignored: Bank={}, Loan={}, BankProfit={}", bank, loan, bankProfit);
     }
 
-    @Override
-    public String toString() {
+    public String getBestProposition() {
         logger.info("Converting Top to String.");
 
         StringBuilder builder = new StringBuilder();

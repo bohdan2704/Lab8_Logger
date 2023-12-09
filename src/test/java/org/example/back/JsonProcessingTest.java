@@ -20,31 +20,27 @@ import static org.junit.jupiter.api.Assertions.*;
 class JsonProcessingTest {
 
     @Test
-    void addUser() {
-    }
+    void getUserList() {
+        JsonProcessing jsonProcessing = new JsonProcessing();
+        jsonProcessing.loadData();
+        List<LoanUser> userList = jsonProcessing.getUserList();
 
-//    @Test
-//    void getUserList() {
-//        JsonProcessing jsonProcessing = new JsonProcessing();
-//        jsonProcessing.loadData();
-//        List<LoanUser> userList = jsonProcessing.getUserList();
-//
-//        // Create a Gson instance
-//        Gson gson = new Gson();
-//        // Define the type of the collection you want to deserialize
-//        Type listType = new TypeToken<List<LoanUser>>() {}.getType();
-//
-//        // Use Gson to parse the JSON file into a List of LoanUser objects
-//        List<LoanUser> userListJustReadFromJson;
-//        try (FileReader reader = new FileReader(jsonProcessing.getJsonUsersListPath())) {
-//            userListJustReadFromJson = gson.fromJson(reader, listType);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//
-//        // Compare the two lists
-//        assertIterableEquals(userList, userListJustReadFromJson);
-//    }
+        // Create a Gson instance
+        Gson gson = new Gson();
+        // Define the type of the collection you want to deserialize
+        Type listType = new TypeToken<List<LoanUser>>() {}.getType();
+
+        // Use Gson to parse the JSON file into a List of LoanUser objects
+        List<LoanUser> userListJustReadFromJson;
+        try (FileReader reader = new FileReader(jsonProcessing.getJsonUsersListPath())) {
+            userListJustReadFromJson = gson.fromJson(reader, listType);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        // Compare the two lists
+        assertIterableEquals(userList, userListJustReadFromJson);
+    }
 
     @Test
     void getBankList() {
@@ -67,6 +63,13 @@ class JsonProcessingTest {
 
         // Step 3: Compare the two lists
         assertIterableEquals(bankList, bankListJustReadFromJson);
+    }
+
+    @Test
+    void badPathWhenLoadingJson() {
+        JsonProcessing jsonProcessing = new JsonProcessing("bad/path/to/nowhere", "bad/path/to/nowhere");
+        // Step 3: Compare the two lists
+        assertThrows(RuntimeException.class, jsonProcessing::loadData);
     }
 
     @Test

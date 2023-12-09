@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Monobank",
+    "hashName": "bb2b2db629700080f7504910ed328fc4",
+    "offers": [
+      {
+        "percent": 0.055,
+        "interval": 12,
+        "paysAmount": 6,
+        "name": "Loan A",
+        "description": "This is a loan for a car"
+      },
+      {
+        "percent": 0.048,
+        "interval": 6,
+        "paysAmount": 6,
+        "name": "Loan B",
+        "description": "Home improvement loan"
+      },
+      {
+        "percent": 0.062,
+        "interval": 36,
+        "paysAmount": 2,
+        "name": "Loan C",
+        "description": "Education loan"
+      }
+    ]
+  },
+  {
+    "name": "Bank XYZ",
+    "hashName": "659dff57405ced87f824ed4cc232c76b",
+    "offers": [
+      {
+        "percent": 0.040,
+        "interval": 24,
+        "paysAmount": 8,
+        "name": "Loan X",
+        "description": "Personal loan"
+      },
+      {
+        "percent": 0.052,
+        "interval": 12,
+        "paysAmount": 4,
+        "name": "Loan Y",
+        "description": "Home mortgage"
+      },
+      {
+        "percent": 0.038,
+        "interval": 6,
+        "paysAmount": 3,
+        "name": "Loan Z",
+        "description": "Small business loan"
+      }
+    ]
+  }
+]

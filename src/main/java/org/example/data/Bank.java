@@ -3,12 +3,19 @@ package org.example.data;
 import org.example.money.Loan;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 
 public class Bank {
     private String name;
     private String hashName;
     private Loan[] offers;
+
+    public Bank(String name, String hashName, Loan[] offers) {
+        this.name = name;
+        this.hashName = hashName;
+        this.offers = offers;
+    }
 
     public Loan[] getPropositions() {
         return offers;
