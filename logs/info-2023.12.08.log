@@ -1,0 +1,834 @@
+2023-12-08 01:21:17.136 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 01:21:17.138 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 01:21:19.251 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 01:21:19.252 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 01:51:50.975 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 01:51:50.977 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 01:51:58.514 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.lang.Class.getResourceAsStream(String)" is null
+	at org.example.back.JsonProcessing.<init>(JsonProcessing.java:26) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:22) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+2023-12-08 01:52:33.823 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.lang.Class.getResourceAsStream(String)" is null
+	at org.example.back.JsonProcessing.<init>(JsonProcessing.java:26) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:22) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+2023-12-08 01:53:02.137 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.lang.Class.getResourceAsStream(String)" is null
+	at org.example.back.JsonProcessing.<init>(JsonProcessing.java:26) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:22) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+2023-12-08 01:54:12.558 [main] org.example.back.JsonProcessing:48 ERROR org.example.back.JsonProcessing - java.io.BufferedInputStream@2034b64c (The system cannot find the file specified)
+2023-12-08 01:54:14.370 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.RuntimeException: Got an exception when reading from users json file
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:49) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:23) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+Caused by: java.io.FileNotFoundException: java.io.BufferedInputStream@2034b64c (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:37) ~[classes/:?]
+	... 2 more
+2023-12-08 01:56:09.175 [main] org.example.back.JsonProcessing:48 ERROR org.example.back.JsonProcessing - file:\D:\Java%20Programing\Lab8\target\classes\data\users.json (The filename, directory name, or volume label syntax is incorrect)
+2023-12-08 01:56:18.536 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.RuntimeException: Got an exception when reading from users json file
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:49) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:23) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+Caused by: java.io.FileNotFoundException: file:\D:\Java%20Programing\Lab8\target\classes\data\users.json (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:37) ~[classes/:?]
+	... 2 more
+2023-12-08 02:06:35.811 [main] org.example.back.JsonProcessing:52 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:06:35.816 [main] org.example.back.JsonProcessing:66 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:06:35.819 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 02:06:35.819 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 02:07:22.267 [main] org.example.back.JsonProcessing:55 ERROR org.example.back.JsonProcessing - file:\D:\Java%20Programing\Lab8\target\classes\data\users.json (The filename, directory name, or volume label syntax is incorrect)
+2023-12-08 02:07:24.812 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.RuntimeException: Got an exception when reading from users json file
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:56) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:23) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) [classes/:?]
+Caused by: java.io.FileNotFoundException: file:\D:\Java%20Programing\Lab8\target\classes\data\users.json (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.back.JsonProcessing.loadData(JsonProcessing.java:44) ~[classes/:?]
+	... 2 more
+2023-12-08 02:09:24.203 [main] org.example.back.JsonProcessing:52 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:09:24.208 [main] org.example.back.JsonProcessing:66 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:09:24.211 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 02:09:24.211 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 02:09:34.818 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 02:09:37.711 [main] org.example.back.JsonProcessing:111 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-08 02:09:37.713 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-08 02:09:37.714 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 02:09:37.715 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:09:41.051 [main] org.example.back.Menu:48 INFO  org.example.back.Menu - /exit -- stop program execution
+2023-12-08 02:09:41.052 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:09:47.752 [main] org.example.pattern.PayLoanCommand:19 INFO  org.example.pattern.PayLoanCommand - Creating PayLoanCommand instance.
+2023-12-08 02:09:47.758 [main] org.example.pattern.PayLoanCommand:28 INFO  org.example.pattern.PayLoanCommand - Executing PayLoanCommand command.
+2023-12-08 02:09:47.759 [main] org.example.back.PickerUserLoan:23 INFO  org.example.back.PickerUserLoan - Executing PickerUserLoan.
+2023-12-08 02:09:47.760 [main] org.example.back.PickerUserLoan:26 INFO  org.example.back.PickerUserLoan - Prompting user for loan index.
+2023-12-08 02:09:52.174 [main] org.example.back.PickerUserLoan:35 INFO  org.example.back.PickerUserLoan - User chose loan with index 0: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 13 300 -- Date of the loan: 2023-12-01
+
+2023-12-08 02:09:56.160 [main] org.example.money.TakenLoan:73 INFO  org.example.money.TakenLoan - Processing loan payment: Amount=2000.0, RemainingAmount=13300.0, PaysLeft=6
+2023-12-08 02:09:56.162 [main] org.example.money.TakenLoan:53 INFO  org.example.money.TakenLoan - Paid amount to cover loan: 2000.0
+2023-12-08 02:09:56.162 [main] org.example.money.TakenLoan:58 INFO  org.example.money.TakenLoan - Displaying information about loan payments.
+2023-12-08 02:09:56.167 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 0
+2023-12-08 02:09:56.175 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2023-12-01
+2023-12-08 02:09:56.177 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 2
+2023-12-08 02:09:56.178 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2024-02-01
+2023-12-08 02:09:56.179 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 4
+2023-12-08 02:09:56.180 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2024-04-01
+2023-12-08 02:09:56.181 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 6
+2023-12-08 02:09:56.182 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2024-06-01
+2023-12-08 02:09:56.183 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 8
+2023-12-08 02:09:56.183 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2024-08-01
+2023-12-08 02:09:56.184 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2023-12-01 -- 10
+2023-12-08 02:09:56.185 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2024-10-01
+2023-12-08 02:09:56.187 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:30:39.959 [main] org.example.back.JsonProcessing:52 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:30:39.962 [main] org.example.back.JsonProcessing:66 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:31:18.288 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:31:18.290 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:32:04.735 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:32:04.738 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:33:57.242 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:33:57.245 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:35:40.481 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:35:40.484 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:37:41.587 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:37:41.591 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:38:48.688 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:38:48.694 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:40:27.770 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:40:27.780 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:40:57.020 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:40:57.028 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:42:03.969 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:42:03.973 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:44:24.403 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:44:24.408 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:44:24.424 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:44:24.425 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:46:35.673 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:46:35.677 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:46:35.684 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:46:35.685 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:48:39.006 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:48:39.008 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:48:39.008 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:50:30.224 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 02:50:30.225 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 02:50:31.960 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 02:50:31.961 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 02:50:31.994 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:50:31.996 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:50:31.996 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:50:45.392 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 02:50:45.395 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 02:50:47.024 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 02:50:47.025 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 02:50:47.092 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:50:47.093 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:50:47.094 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:51:19.064 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:51:19.066 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:51:19.066 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:52:06.499 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:52:06.502 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:52:06.502 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:53:45.271 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:53:45.272 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:53:45.273 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:54:12.138 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:54:12.142 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:54:12.143 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:55:02.268 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:55:02.272 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:55:02.273 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:55:31.830 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 02:55:31.846 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 02:55:31.848 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 02:55:31.848 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 02:58:20.873 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 02:58:22.532 [main] org.example.back.JsonProcessing:122 WARN  org.example.back.JsonProcessing - Username is not found: Bohdan
+2023-12-08 02:58:22.532 [main] org.example.back.JsonProcessing:123 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 02:58:22.532 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-08 02:58:22.534 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 02:58:22.534 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 02:58:22.534 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 02:58:27.506 [main] org.example.login.LoanUser:45 INFO  org.example.login.LoanUser - Prompting user for password.
+2023-12-08 02:58:44.642 [main] org.example.back.JsonProcessing:78 INFO  org.example.back.JsonProcessing - User added: Bohdan
+2023-12-08 02:58:44.649 [main] org.example.back.JsonProcessing:93 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-08 02:58:44.650 [main] org.example.back.JsonProcessing:95 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-08 02:58:44.651 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 02:58:44.651 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:58:52.155 [main] org.example.back.Menu:48 INFO  org.example.back.Menu - /exit -- stop program execution
+2023-12-08 02:58:52.156 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:58:55.262 [main] org.example.pattern.TakeLoan:24 INFO  org.example.pattern.TakeLoan - Executing TakeLoan command.
+2023-12-08 02:58:55.262 [main] org.example.pattern.TakeLoan:27 INFO  org.example.pattern.TakeLoan - Taking a loan? Great!
+2023-12-08 02:59:02.192 [main] org.example.pattern.TakeLoan:49 INFO  org.example.pattern.TakeLoan - Loan details: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, LoanSum=23000.0
+2023-12-08 02:59:02.192 [main] org.example.login.LoanUser:60 INFO  org.example.login.LoanUser - User Bohdan is taking a loan.
+2023-12-08 02:59:02.193 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 02:59:02.193 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 7590.0
+2023-12-08 02:59:02.193 [main] org.example.money.TakenLoan:28 INFO  org.example.money.TakenLoan - Creating TakenLoan instance: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, TotalAmount=23000.0, TakenDate=2023-12-08
+2023-12-08 02:59:02.194 [main] org.example.login.LoanUser:66 INFO  org.example.login.LoanUser - Loan taken: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 30 590 -- Date of the loan: 2023-12-08
+
+2023-12-08 02:59:02.195 [main] org.example.back.JsonProcessing:93 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-08 02:59:02.196 [main] org.example.back.JsonProcessing:95 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-08 02:59:02.196 [main] org.example.pattern.TakeLoan:56 INFO  org.example.pattern.TakeLoan - Loan successfully taken.
+2023-12-08 02:59:02.196 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:59:05.690 [main] org.example.pattern.TakeLoan:24 INFO  org.example.pattern.TakeLoan - Executing TakeLoan command.
+2023-12-08 02:59:05.690 [main] org.example.pattern.TakeLoan:27 INFO  org.example.pattern.TakeLoan - Taking a loan? Great!
+2023-12-08 02:59:10.375 [main] org.example.pattern.TakeLoan:49 INFO  org.example.pattern.TakeLoan - Loan details: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, LoanSum=12000.0
+2023-12-08 02:59:10.375 [main] org.example.login.LoanUser:60 INFO  org.example.login.LoanUser - User Bohdan is taking a loan.
+2023-12-08 02:59:10.376 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 02:59:10.376 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4212.0
+2023-12-08 02:59:10.377 [main] org.example.money.TakenLoan:28 INFO  org.example.money.TakenLoan - Creating TakenLoan instance: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, TotalAmount=12000.0, TakenDate=2023-12-08
+2023-12-08 02:59:10.377 [main] org.example.login.LoanUser:66 INFO  org.example.login.LoanUser - Loan taken: Bank: Bank XYZ
+Loan Y Home mortgage -- 5.2%
+Sum of the loan: 16 212 -- Date of the loan: 2023-12-08
+
+2023-12-08 02:59:10.378 [main] org.example.back.JsonProcessing:93 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-08 02:59:10.378 [main] org.example.back.JsonProcessing:95 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-08 02:59:10.379 [main] org.example.pattern.TakeLoan:56 INFO  org.example.pattern.TakeLoan - Loan successfully taken.
+2023-12-08 02:59:10.379 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 02:59:13.604 [main] org.example.Main:31 ERROR org.example.Main - This is sample error to check how mailer and buffer logs work
+2023-12-08 02:59:15.366 [main] org.example.Main:32 INFO  org.example.Main - Application completed successfully
+2023-12-08 03:00:04.286 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:00:04.286 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:00:04.287 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:00:13.180 [main] org.example.login.LoanUser:45 INFO  org.example.login.LoanUser - Prompting user for password.
+2023-12-08 03:00:30.618 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:00:30.621 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:00:30.622 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:00:30.622 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:00:58.086 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 03:01:00.215 [main] org.example.back.JsonProcessing:122 WARN  org.example.back.JsonProcessing - Username is not found: Lesha
+2023-12-08 03:01:00.216 [main] org.example.back.JsonProcessing:123 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 03:01:00.217 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Lesha not logged in, proceeding to registration
+2023-12-08 03:01:00.217 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:01:00.218 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:01:00.218 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:01:10.590 [main] org.example.login.LoanUser:45 INFO  org.example.login.LoanUser - Prompting user for password.
+2023-12-08 03:01:23.516 [main] org.example.back.JsonProcessing:78 INFO  org.example.back.JsonProcessing - User added: Lesha
+2023-12-08 03:01:23.522 [main] org.example.back.JsonProcessing:93 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-08 03:01:23.523 [main] org.example.back.JsonProcessing:95 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-08 03:01:23.524 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 03:01:23.524 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:01:26.030 [main] org.example.pattern.TakeLoan:24 INFO  org.example.pattern.TakeLoan - Executing TakeLoan command.
+2023-12-08 03:01:26.031 [main] org.example.pattern.TakeLoan:27 INFO  org.example.pattern.TakeLoan - Taking a loan? Great!
+2023-12-08 03:01:28.778 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 3
+	at org.example.pattern.TakeLoan.execute(TakeLoan.java:41) ~[classes/:?]
+	at org.example.back.Menu.run(Menu.java:75) ~[classes/:?]
+	at org.example.Main.main(Main.java:28) [classes/:?]
+2023-12-08 03:02:04.572 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:02:04.574 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:02:04.574 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:03:45.942 [main] org.example.login.LoanUser:26 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:03:45.945 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:03:45.945 [main] org.example.login.LoanUser:41 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:04:23.044 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:05:08.917 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:05:08.919 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:05:08.919 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:06:15.534 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:06:15.536 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:06:15.536 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:07:12.006 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:07:12.008 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:07:12.008 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:08:00.245 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:08:00.246 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:08:00.246 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:08:04.240 [main] org.example.login.LoanUser:42 INFO  org.example.login.LoanUser - Prompting user for password.
+2023-12-08 03:08:18.128 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 03:08:18.128 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 03:08:18.129 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 03:10:20.472 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:10:20.474 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:10:20.476 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:10:20.476 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:10:37.780 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:10:37.783 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:10:37.784 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:10:37.785 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:10:43.283 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 03:10:45.344 [main] org.example.back.JsonProcessing:112 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-08 03:10:45.344 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-08 03:10:45.344 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 03:10:45.344 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:10:49.510 [main] org.example.pattern.PrintUserLoans:14 INFO  org.example.pattern.PrintUserLoans - Creating PrintUserLoans instance.
+2023-12-08 03:10:49.510 [main] org.example.pattern.PrintUserLoans:21 INFO  org.example.pattern.PrintUserLoans - Executing PrintUserLoans command.
+2023-12-08 03:10:49.511 [main] org.example.pattern.PrintUserLoans:31 INFO  org.example.pattern.PrintUserLoans - Printing user loans.
+2023-12-08 03:10:49.518 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 1: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 30 590 -- Date of the loan: 2023-12-08
+
+2023-12-08 03:10:49.519 [main] org.example.pattern.PrintUserLoans:37 INFO  org.example.pattern.PrintUserLoans - Loan 2: Bank: Bank XYZ
+Loan Y Home mortgage -- 5.2%
+Sum of the loan: 16 212 -- Date of the loan: 2023-12-08
+
+2023-12-08 03:10:49.519 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:12:56.008 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:12:56.012 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:12:56.020 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:12:56.021 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:13:07.431 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 03:13:07.433 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 03:13:10.854 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 03:13:10.855 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 03:13:10.941 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:13:10.946 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:13:10.951 [main] org.example.back.JsonProcessing:53 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:13:10.952 [main] org.example.back.JsonProcessing:67 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:23:30.070 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 03:24:07.417 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 03:24:19.432 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 03:24:19.434 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 03:24:21.308 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 03:24:21.309 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 03:24:21.373 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 03:24:22.611 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:24:22.614 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:24:22.619 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:24:22.620 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:33:03.350 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:33:03.353 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:33:03.354 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:33:03.354 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:34:56.936 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:34:56.939 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:34:56.941 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:34:56.941 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:34:59.698 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 03:35:01.221 [main] org.example.back.JsonProcessing:122 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-08 03:35:01.221 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-08 03:35:01.222 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 03:35:01.222 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:35:06.113 [main] org.example.back.Menu:48 INFO  org.example.back.Menu - /exit -- stop program execution
+2023-12-08 03:35:06.114 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:35:12.258 [main] org.example.pattern.FindBestLoan:20 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 03:35:16.630 [main] org.example.pattern.FindBestLoan:33 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 03:35:16.635 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 03:35:16.635 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 03:35:16.635 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 03:35:16.635 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.635 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 03:35:16.635 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 03:35:16.635 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 03:35:16.636 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 03:35:16.636 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.636 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 03:35:16.636 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 03:35:16.636 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 03:35:16.636 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 03:35:16.636 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.636 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 03:35:16.636 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 03:35:16.637 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 03:35:16.637 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 03:35:16.637 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.637 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 03:35:16.637 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 03:35:16.637 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 03:35:16.637 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 03:35:16.637 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.637 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 03:35:16.637 [main] org.example.pattern.FindBestLoan:40 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 03:35:16.638 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 03:35:16.638 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 03:35:16.638 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:35:16.638 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 03:35:16.638 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 03:35:16.639 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:37:49.141 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:37:49.144 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:37:49.146 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:37:49.146 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:37:51.669 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 03:37:53.350 [main] org.example.back.JsonProcessing:122 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-08 03:37:53.350 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-08 03:37:53.351 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 03:37:53.351 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:37:56.358 [main] org.example.back.Menu:48 INFO  org.example.back.Menu - /exit -- stop program execution
+2023-12-08 03:37:56.359 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:48:23.335 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 03:48:23.340 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 03:48:23.341 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 03:48:23.342 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 03:51:44.676 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 03:51:46.569 [main] org.example.back.JsonProcessing:122 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-08 03:51:46.569 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-08 03:51:46.569 [main] org.example.Main:26 INFO  org.example.Main - Initializing menu...
+2023-12-08 03:51:46.570 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:51:50.552 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 03:51:54.843 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 03:51:54.851 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 03:51:54.852 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 03:51:54.852 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 03:51:54.852 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.852 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 03:51:54.853 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 03:51:54.853 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 03:51:54.853 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 03:51:54.853 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.853 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 03:51:54.853 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 03:51:54.854 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 03:51:54.854 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 03:51:54.854 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.854 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 03:51:54.854 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 03:51:54.854 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 03:51:54.854 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 03:51:54.855 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.855 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 03:51:54.855 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 03:51:54.855 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 03:51:54.855 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 03:51:54.855 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.855 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 03:51:54.856 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 03:51:54.856 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 03:51:54.856 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 03:51:54.856 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:51:54.856 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 03:51:54.857 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 03:51:54.857 [main] org.example.back.Menu:35 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-08 03:59:25.391 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 03:59:25.394 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 03:59:25.394 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 03:59:25.395 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 03:59:25.395 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 03:59:25.396 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 03:59:25.400 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 03:59:25.401 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 03:59:25.405 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 03:59:25.405 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 03:59:25.405 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 03:59:25.405 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:59:25.405 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 03:59:25.406 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 03:59:25.406 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 03:59:25.406 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 03:59:25.406 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 03:59:25.406 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 03:59:25.406 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:00:01.984 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:00:01.989 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:00:01.989 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:00:01.991 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:00:01.991 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:00:01.991 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:00:08.312 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:00:09.161 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:00:09.188 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:00:09.189 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:00:09.190 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:00:09.190 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.191 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:00:09.192 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:00:09.192 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:00:09.193 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:00:09.193 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.193 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:00:09.194 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:00:09.194 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:00:09.194 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:00:09.195 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.195 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:00:09.195 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:00:09.196 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:00:09.196 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:00:09.196 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.197 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:00:09.197 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:00:09.197 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:00:09.197 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:00:09.197 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.198 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:00:09.198 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:00:09.198 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:00:09.199 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:00:09.199 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:00:09.199 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:00:09.200 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:04:21.476 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:04:21.483 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:04:21.483 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:21.484 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:21.485 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:04:21.485 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:04:21.491 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:04:21.492 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:04:21.497 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:04:21.497 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:04:21.498 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:04:21.498 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.499 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:04:21.499 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:04:21.499 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:04:21.499 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:04:21.500 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.500 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:04:21.500 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:04:21.500 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:21.500 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:04:21.500 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.500 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:04:21.500 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:04:21.500 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:21.501 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:04:21.501 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.501 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:04:21.501 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:04:21.501 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:04:21.501 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:04:21.501 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.501 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:04:21.501 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:04:21.502 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:04:21.502 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:04:21.502 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:21.502 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:04:21.502 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:04:38.717 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:04:38.720 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:04:38.721 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:38.723 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:38.723 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:04:38.723 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:04:38.726 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:04:38.727 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:04:38.730 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:04:38.731 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:38.731 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:04:38.731 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:38.731 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:04:38.731 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:04:38.731 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:38.731 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:04:38.731 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:38.732 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:04:38.732 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:04:46.739 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:04:46.742 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:04:46.742 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:46.745 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:46.745 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:04:46.745 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:04:46.748 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:04:46.749 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:04:46.753 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:04:46.753 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:04:46.753 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:04:46.753 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.754 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:04:46.754 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:04:46.754 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:04:46.754 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:04:46.754 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.754 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:04:46.754 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:04:46.754 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:04:46.755 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:04:46.755 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.755 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:04:46.755 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:04:46.755 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:04:46.755 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:04:46.755 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.755 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:04:46.755 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:04:46.756 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:04:46.756 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:04:46.756 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.756 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:04:46.756 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:04:46.756 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:04:46.756 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:04:46.756 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:04:46.757 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:04:46.757 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:05:14.448 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:05:14.452 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:05:14.452 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:05:14.454 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:05:14.454 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:05:14.454 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:05:14.459 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:05:14.460 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:05:14.468 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:05:14.468 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:05:14.468 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:05:14.468 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.469 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:05:14.469 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:05:14.469 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:05:14.469 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:05:14.469 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.469 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:05:14.470 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:05:14.470 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:05:14.470 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:05:14.470 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.470 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:05:14.470 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:05:14.470 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:05:14.470 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:05:14.471 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.471 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:05:14.471 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:05:14.471 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:05:14.471 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:05:14.471 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.472 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:05:14.472 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:05:14.472 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:05:14.472 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:05:14.472 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:05:14.472 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:05:14.472 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:05:14.523 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 04:05:14.525 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 04:05:16.359 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 04:05:16.360 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 04:05:16.439 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 04:05:17.845 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:05:17.846 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:05:17.852 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:05:17.853 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:12:51.288 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: john_doe
+2023-12-08 04:12:51.288 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:12:51.777 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: non_existing_user
+2023-12-08 04:12:51.777 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:19:22.356 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:19:22.360 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:19:22.360 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:19:22.361 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:19:22.362 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:19:22.362 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:19:22.370 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:19:22.373 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:19:22.377 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:19:22.377 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:19:22.377 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:19:22.377 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.377 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:19:22.378 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:19:22.378 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:19:22.378 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:19:22.378 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.378 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:19:22.378 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:19:22.378 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:19:22.378 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:19:22.378 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.379 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:19:22.379 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:19:22.379 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:19:22.379 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:19:22.379 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.379 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:19:22.379 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:19:22.379 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:19:22.380 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:19:22.380 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.380 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:19:22.380 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:19:22.380 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:19:22.380 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:19:22.380 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:19:22.380 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:19:22.381 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:19:22.394 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 04:19:22.396 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 04:19:23.905 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 04:19:23.906 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 04:19:23.951 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 04:19:25.172 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:19:25.174 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:19:25.181 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:19:25.182 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:20:19.994 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:20:19.994 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:21:48.522 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:21:48.523 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:21:48.523 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:21:48.533 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: john_doe
+2023-12-08 04:21:48.533 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:21:48.533 [main] org.example.back.Login:47 INFO  org.example.back.Login - User john_doe not logged in, proceeding to registration
+2023-12-08 04:21:48.535 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:21:48.535 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:21:48.535 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:21:48.553 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:21:48.553 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:21:48.553 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:21:48.554 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: non_existing_user
+2023-12-08 04:21:48.554 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:21:48.554 [main] org.example.back.Login:47 INFO  org.example.back.Login - User non_existing_user not logged in, proceeding to registration
+2023-12-08 04:21:48.554 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:21:48.554 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:21:48.554 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:21:48.560 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:21:48.560 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:21:48.560 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:21:48.561 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:21:48.562 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:21:48.562 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:21:48.564 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:21:48.565 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:21:48.570 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:21:48.571 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:21:48.571 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:21:48.571 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.572 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:21:48.572 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:21:48.572 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:21:48.572 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:21:48.572 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.572 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:21:48.572 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:21:48.572 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:21:48.573 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:21:48.573 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.573 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:21:48.573 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:21:48.573 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:21:48.573 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:21:48.573 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.574 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:21:48.574 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:21:48.574 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:21:48.574 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:21:48.574 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.574 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:21:48.574 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:21:48.575 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:21:48.575 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:21:48.575 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:21:48.575 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:21:48.575 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:21:48.592 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 04:21:48.594 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 04:21:50.142 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 04:21:50.143 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 04:21:50.198 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 04:21:51.479 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:21:51.481 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:21:51.487 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:21:51.488 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:22:48.898 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:22:48.899 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:22:48.899 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:22:48.902 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: Bohdan
+2023-12-08 04:22:48.903 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:22:48.903 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-08 04:22:48.904 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:22:48.904 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:22:48.905 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:22:48.916 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:22:48.916 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:22:48.917 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:22:48.917 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: non_existing_user
+2023-12-08 04:22:48.917 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:22:48.917 [main] org.example.back.Login:47 INFO  org.example.back.Login - User non_existing_user not logged in, proceeding to registration
+2023-12-08 04:22:48.917 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:22:48.918 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:22:48.918 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:22:48.923 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:22:48.923 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:22:48.923 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:22:48.924 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:22:48.924 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:22:48.924 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:22:48.925 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-08 04:22:48.925 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-08 04:22:48.929 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-08 04:22:48.929 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-08 04:22:48.929 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-08 04:22:48.929 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.929 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-08 04:22:48.929 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-08 04:22:48.930 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-08 04:22:48.930 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-08 04:22:48.930 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.930 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-08 04:22:48.930 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-08 04:22:48.930 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-08 04:22:48.930 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-08 04:22:48.930 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.930 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-08 04:22:48.930 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-08 04:22:48.931 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-08 04:22:48.931 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-08 04:22:48.931 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.931 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-08 04:22:48.931 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-08 04:22:48.931 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-08 04:22:48.931 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-08 04:22:48.931 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.931 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-08 04:22:48.931 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-08 04:22:48.932 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-08 04:22:48.932 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-08 04:22:48.932 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-08 04:22:48.932 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-08 04:22:48.932 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-08 04:22:48.948 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-08 04:22:48.949 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-08 04:22:50.503 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-08 04:22:50.505 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-08 04:22:50.536 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-08 04:22:51.871 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:22:51.873 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:22:51.880 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-08 04:22:51.881 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-08 04:23:26.287 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:23:26.287 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:23:26.288 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:23:26.345 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: Bohdan
+2023-12-08 04:23:26.346 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:23:26.347 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-08 04:23:26.348 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:23:26.348 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:23:26.349 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:24:04.465 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:24:04.465 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:24:04.466 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:24:04.493 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: Bohdan
+2023-12-08 04:24:04.493 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:24:04.493 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-08 04:24:04.494 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:24:04.495 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:24:04.495 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 04:24:20.577 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 04:24:20.577 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 04:24:20.578 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-08 04:24:20.609 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: Bohdan
+2023-12-08 04:24:20.610 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-08 04:24:20.610 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-08 04:24:20.612 [main] org.example.login.LoanUser:23 INFO  org.example.login.LoanUser - Creating LoanUser instance with user input.
+2023-12-08 04:24:20.612 [main] org.example.login.LoanUser:35 INFO  org.example.login.LoanUser - Reading user input for LoanUser.
+2023-12-08 04:24:20.613 [main] org.example.login.LoanUser:38 INFO  org.example.login.LoanUser - Prompting user for name.
+2023-12-08 18:21:52.410 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-08 18:21:52.411 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-08 18:21:52.412 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password

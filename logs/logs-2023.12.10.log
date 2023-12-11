@@ -1,0 +1,504 @@
+2023-12-10 02:01:58.783 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:01:58.797 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:01:58.798 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:01:59.129 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 02:01:59.158 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 02:01:59.159 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:01:59.167 [main] org.example.pattern.AllLoans:17 INFO  org.example.pattern.AllLoans - Creating AllLoans instance.
+2023-12-10 02:01:59.168 [main] org.example.pattern.AllLoans:22 INFO  org.example.pattern.AllLoans - Executing AllLoans command.
+2023-12-10 02:01:59.300 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:01:59.300 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:01:59.304 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:01:59.310 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 02:01:59.312 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 02:01:59.313 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:01:59.313 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 02:01:59.314 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 02:01:59.315 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 02:01:59.321 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.408 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.409 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.416 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 02:01:59.416 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.417 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.417 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.417 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.418 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.418 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.418 [main] org.example.back.JsonProcessing:126 WARN  org.example.back.JsonProcessing - Password is incorrect for user: Bohdan
+2023-12-10 02:01:59.421 [main] org.example.back.JsonProcessing:127 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-10 02:01:59.422 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-10 02:01:59.431 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:01:59.432 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:01:59.434 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:01:59.444 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 02:01:59.448 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 02:01:59.448 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:01:59.449 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 02:01:59.449 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 02:01:59.450 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 02:01:59.452 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.452 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.453 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.453 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 02:01:59.453 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: BadLoginName
+2023-12-10 02:01:59.454 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-10 02:01:59.454 [main] org.example.back.Login:47 INFO  org.example.back.Login - User BadLoginName not logged in, proceeding to registration
+2023-12-10 02:01:59.458 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:01:59.458 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:01:59.459 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:01:59.464 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 02:01:59.467 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 02:01:59.467 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:01:59.468 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 02:01:59.468 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 02:01:59.468 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 02:01:59.469 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.469 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.469 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.470 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 02:01:59.470 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.470 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.471 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.471 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.471 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.472 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.472 [main] org.example.back.JsonProcessing:122 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-10 02:01:59.472 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-10 02:01:59.477 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 02:01:59.478 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-10 02:01:59.478 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-10 02:01:59.479 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-10 02:01:59.479 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-10 02:01:59.479 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-10 02:01:59.492 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-10 02:01:59.495 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-10 02:01:59.499 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-10 02:01:59.499 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 02:01:59.500 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-10 02:01:59.500 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.501 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-10 02:01:59.502 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-10 02:01:59.503 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-10 02:01:59.504 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-10 02:01:59.504 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.505 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-10 02:01:59.505 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-10 02:01:59.506 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-10 02:01:59.506 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-10 02:01:59.507 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.508 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-10 02:01:59.509 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-10 02:01:59.509 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-10 02:01:59.510 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-10 02:01:59.511 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.512 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-10 02:01:59.513 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-10 02:01:59.514 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-10 02:01:59.514 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-10 02:01:59.515 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.516 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-10 02:01:59.517 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-10 02:01:59.517 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-10 02:01:59.518 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-10 02:01:59.518 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 02:01:59.519 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-10 02:01:59.519 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-10 02:01:59.531 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.532 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.532 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.534 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.536 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 02:01:59.537 [main] org.example.back.Hashing:49 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 02:01:59.540 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:01:59.541 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 02:02:01.791 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:02:01.793 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:02:01.793 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:01.810 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 02:02:01.815 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 02:02:01.816 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:02:01.817 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:01.821 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 02:02:01.824 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 02:02:01.824 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:02:01.825 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 02:02:01.825 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 02:02:01.825 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at org.example.back.Login.execute(Login.java:31) ~[classes/:?]
+	at org.example.back.Login.<init>(Login.java:18) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:28) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) ~[classes/:?]
+	at org.example.MainTest.lambda$testMainMethod$0(MainTest.java:22) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3136) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.example.MainTest.testMainMethod(MainTest.java:22) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727) ~[junit-platform-commons-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2023-12-10 02:02:04.991 [main] org.example.Main:39 TRACE org.example.Main - Application exiting
+2023-12-10 02:02:05.046 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-10 02:02:05.054 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-10 02:02:06.395 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-10 02:02:06.399 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-10 02:02:06.418 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:02:06.419 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:02:06.421 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:06.422 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-10 02:02:07.858 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:02:07.860 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:02:07.861 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:07.870 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 02:02:07.876 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 02:02:07.877 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:02:07.897 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:02:07.898 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:02:07.899 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:07.907 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 02:02:07.911 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 02:02:07.911 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:02:07.938 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 02:02:07.938 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 02:02:07.939 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 02:02:07.948 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 02:02:07.955 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 02:02:07.956 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 02:02:07.963 [main] org.example.pattern.TakeLoan:24 INFO  org.example.pattern.TakeLoan - Executing TakeLoan command.
+2023-12-10 02:02:07.964 [main] org.example.pattern.TakeLoan:27 INFO  org.example.pattern.TakeLoan - Taking a loan? Great!
+2023-12-10 02:02:07.969 [main] org.example.pattern.TakeLoan:33 TRACE org.example.pattern.TakeLoan - Bank index entered: 0
+2023-12-10 02:02:07.970 [main] org.example.pattern.TakeLoan:38 TRACE org.example.pattern.TakeLoan - Loan index entered: 0
+2023-12-10 02:02:07.975 [main] org.example.pattern.TakeLoan:46 TRACE org.example.pattern.TakeLoan - Loan sum entered: 1000.0
+2023-12-10 02:02:07.975 [main] org.example.pattern.TakeLoan:49 INFO  org.example.pattern.TakeLoan - Loan details: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, LoanSum=1000.0
+2023-12-10 02:02:07.976 [main] org.example.login.LoanUser:57 INFO  org.example.login.LoanUser - User Bohdan is taking a loan.
+2023-12-10 02:02:07.976 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 02:02:07.976 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 330.0000000000001
+2023-12-10 02:02:07.976 [main] org.example.money.TakenLoan:28 INFO  org.example.money.TakenLoan - Creating TakenLoan instance: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, TotalAmount=1000.0, TakenDate=2023-12-10
+2023-12-10 02:02:07.979 [main] org.example.login.LoanUser:63 INFO  org.example.login.LoanUser - Loan taken: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 1 330 -- Date of the loan: 2023-12-10
+
+2023-12-10 02:02:07.981 [main] org.example.back.JsonProcessing:100 TRACE org.example.back.JsonProcessing - Method saveData() started
+2023-12-10 02:02:08.000 [main] org.example.back.JsonProcessing:103 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-10 02:02:08.001 [main] org.example.back.JsonProcessing:105 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-10 02:02:08.002 [main] org.example.back.JsonProcessing:111 TRACE org.example.back.JsonProcessing - Method saveData() ended
+2023-12-10 02:02:08.002 [main] org.example.pattern.TakeLoan:56 INFO  org.example.pattern.TakeLoan - Loan successfully taken.
+2023-12-10 13:48:25.012 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:25.017 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:25.017 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.089 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 13:48:25.093 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 13:48:25.093 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.096 [main] org.example.pattern.AllLoans:17 INFO  org.example.pattern.AllLoans - Creating AllLoans instance.
+2023-12-10 13:48:25.097 [main] org.example.pattern.AllLoans:22 INFO  org.example.pattern.AllLoans - Executing AllLoans command.
+2023-12-10 13:48:25.145 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:25.145 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:25.149 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.151 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 13:48:25.154 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 13:48:25.154 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.155 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 13:48:25.155 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 13:48:25.156 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 13:48:25.158 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.176 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.176 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.177 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 13:48:25.177 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.177 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.178 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.178 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.178 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.178 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.178 [main] org.example.back.JsonProcessing:126 WARN  org.example.back.JsonProcessing - Password is incorrect for user: Bohdan
+2023-12-10 13:48:25.178 [main] org.example.back.JsonProcessing:127 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-10 13:48:25.179 [main] org.example.back.Login:47 INFO  org.example.back.Login - User Bohdan not logged in, proceeding to registration
+2023-12-10 13:48:25.180 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:25.180 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:25.181 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.183 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 13:48:25.185 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 13:48:25.186 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.186 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 13:48:25.186 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 13:48:25.186 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 13:48:25.186 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.186 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.186 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.186 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 13:48:25.187 [main] org.example.back.JsonProcessing:132 WARN  org.example.back.JsonProcessing - Username is not found: BadLoginName
+2023-12-10 13:48:25.187 [main] org.example.back.JsonProcessing:133 WARN  org.example.back.JsonProcessing - Method returned null value when ended
+2023-12-10 13:48:25.187 [main] org.example.back.Login:47 INFO  org.example.back.Login - User BadLoginName not logged in, proceeding to registration
+2023-12-10 13:48:25.188 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:25.188 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:25.189 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.191 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 13:48:25.191 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 13:48:25.192 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.192 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 13:48:25.192 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 13:48:25.192 [main] org.example.back.Login:34 INFO  org.example.back.Login - Enter password
+2023-12-10 13:48:25.193 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.193 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.193 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.193 [main] org.example.back.JsonProcessing:115 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-10 13:48:25.193 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.194 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.194 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.194 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.194 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.194 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.194 [main] org.example.back.JsonProcessing:122 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-10 13:48:25.195 [main] org.example.back.Login:44 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-10 13:48:25.198 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 13:48:25.198 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-10 13:48:25.199 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-10 13:48:25.199 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-10 13:48:25.199 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-10 13:48:25.199 [main] org.example.money.Loan:22 INFO  org.example.money.Loan - Creating Loan instance: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-10 13:48:25.201 [main] org.example.pattern.FindBestLoan:21 INFO  org.example.pattern.FindBestLoan - Creating FindBestLoan instance.
+2023-12-10 13:48:25.204 [main] org.example.pattern.FindBestLoan:34 INFO  org.example.pattern.FindBestLoan - Executing FindBestLoan command.
+2023-12-10 13:48:25.207 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, Interval=12
+2023-12-10 13:48:25.207 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 13:48:25.207 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.3
+2023-12-10 13:48:25.207 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.208 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, BankProfit=3.3
+2023-12-10 13:48:25.208 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, Interval=6
+2023-12-10 13:48:25.208 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan B -- Home improvement loan -- 6 months -- 6 pays -- 4.8%
+2023-12-10 13:48:25.209 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.68
+2023-12-10 13:48:25.209 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.209 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan B Home improvement loan -- 4.8%, BankProfit=1.68
+2023-12-10 13:48:25.209 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, Interval=36
+2023-12-10 13:48:25.209 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan C -- Education loan -- 36 months -- 2 pays -- 6.2%
+2023-12-10 13:48:25.210 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 11.47
+2023-12-10 13:48:25.210 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.210 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Monobank, Loan=Loan C Education loan -- 6.2%, BankProfit=11.47
+2023-12-10 13:48:25.210 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, Interval=24
+2023-12-10 13:48:25.210 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan X -- Personal loan -- 24 months -- 8 pays -- 4.0%
+2023-12-10 13:48:25.211 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 4.6
+2023-12-10 13:48:25.211 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.211 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan X Personal loan -- 4.0%, BankProfit=4.6
+2023-12-10 13:48:25.211 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, Interval=12
+2023-12-10 13:48:25.211 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Y -- Home mortgage -- 12 months -- 4 pays -- 5.2%
+2023-12-10 13:48:25.212 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 3.509999999999999
+2023-12-10 13:48:25.212 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.212 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Y Home mortgage -- 5.2%, BankProfit=3.509999999999999
+2023-12-10 13:48:25.212 [main] org.example.pattern.FindBestLoan:41 INFO  org.example.pattern.FindBestLoan - Checking loan: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, Interval=6
+2023-12-10 13:48:25.212 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan Z -- Small business loan -- 6 months -- 3 pays -- 3.8%
+2023-12-10 13:48:25.212 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 1.3933333333333333
+2023-12-10 13:48:25.213 [main] org.example.management.Top:26 INFO  org.example.management.Top - Inserting or ignoring entry in Top.
+2023-12-10 13:48:25.213 [main] org.example.management.Top:46 INFO  org.example.management.Top - Entry inserted or ignored: Bank=Bank XYZ, Loan=Loan Z Small business loan -- 3.8%, BankProfit=1.3933333333333333
+2023-12-10 13:48:25.213 [main] org.example.management.Top:50 INFO  org.example.management.Top - Converting Top to String.
+2023-12-10 13:48:25.217 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.217 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.217 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.218 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.219 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-10 13:48:25.220 [main] org.example.back.Hashing:49 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-10 13:48:25.222 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.222 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-10 13:48:25.862 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:25.862 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:25.863 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.870 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 13:48:25.872 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 13:48:25.872 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.872 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:25.873 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 13:48:25.874 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 13:48:25.874 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:25.874 [main] org.example.back.Login:27 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-10 13:48:25.874 [main] org.example.back.Login:30 INFO  org.example.back.Login - Enter username
+2023-12-10 13:48:25.874 [main] org.example.Main:35 ERROR org.example.Main - An error occurred during the app work
+java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at org.example.back.Login.execute(Login.java:31) ~[classes/:?]
+	at org.example.back.Login.<init>(Login.java:18) ~[classes/:?]
+	at org.example.back.Menu.<init>(Menu.java:28) ~[classes/:?]
+	at org.example.Main.main(Main.java:20) ~[classes/:?]
+	at org.example.MainTest.lambda$testMainMethod$0(MainTest.java:22) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3136) ~[junit-jupiter-api-5.9.2.jar:5.9.2]
+	at org.example.MainTest.testMainMethod(MainTest.java:22) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727) ~[junit-platform-commons-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2023-12-10 13:48:28.193 [main] org.example.Main:39 TRACE org.example.Main - Application exiting
+2023-12-10 13:48:28.209 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-10 13:48:28.212 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-10 13:48:29.828 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-10 13:48:29.830 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
+2023-12-10 13:48:29.841 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:29.842 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:29.842 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:29.843 [main] org.example.back.JsonProcessing:66 ERROR org.example.back.JsonProcessing - bad\path\to\nowhere (The system cannot find the path specified)
+2023-12-10 13:48:31.978 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:31.978 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:31.978 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:31.980 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 13:48:31.981 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 13:48:31.981 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:31.986 [main] org.example.back.JsonProcessing:27 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:31.987 [main] org.example.back.JsonProcessing:38 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:31.987 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:31.989 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\users.json was saved to userList
+2023-12-10 13:48:31.991 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from D:\Java Programing\Lab8\target\classes\data\banks.json was read to bankList
+2023-12-10 13:48:31.991 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:31.997 [main] org.example.back.JsonProcessing:42 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-10 13:48:31.997 [main] org.example.back.JsonProcessing:48 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-10 13:48:31.997 [main] org.example.back.JsonProcessing:52 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-10 13:48:31.999 [main] org.example.back.JsonProcessing:63 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/users.json was saved to userList
+2023-12-10 13:48:32.000 [main] org.example.back.JsonProcessing:77 INFO  org.example.back.JsonProcessing - All data from src/main/resources/dataForLoginTest/banks.json was read to bankList
+2023-12-10 13:48:32.001 [main] org.example.back.JsonProcessing:83 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-10 13:48:32.003 [main] org.example.pattern.TakeLoan:24 INFO  org.example.pattern.TakeLoan - Executing TakeLoan command.
+2023-12-10 13:48:32.003 [main] org.example.pattern.TakeLoan:27 INFO  org.example.pattern.TakeLoan - Taking a loan? Great!
+2023-12-10 13:48:32.004 [main] org.example.pattern.TakeLoan:33 TRACE org.example.pattern.TakeLoan - Bank index entered: 0
+2023-12-10 13:48:32.004 [main] org.example.pattern.TakeLoan:38 TRACE org.example.pattern.TakeLoan - Loan index entered: 0
+2023-12-10 13:48:32.006 [main] org.example.pattern.TakeLoan:46 TRACE org.example.pattern.TakeLoan - Loan sum entered: 1000.0
+2023-12-10 13:48:32.006 [main] org.example.pattern.TakeLoan:49 INFO  org.example.pattern.TakeLoan - Loan details: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, LoanSum=1000.0
+2023-12-10 13:48:32.006 [main] org.example.login.LoanUser:57 INFO  org.example.login.LoanUser - User Bohdan is taking a loan.
+2023-12-10 13:48:32.007 [main] org.example.money.Loan:42 INFO  org.example.money.Loan - Calculating bank profit for Loan: Loan A -- This is a loan for a car -- 12 months -- 6 pays -- 5.5%
+2023-12-10 13:48:32.007 [main] org.example.money.Loan:64 INFO  org.example.money.Loan - Bank profit calculated: 330.0000000000001
+2023-12-10 13:48:32.007 [main] org.example.money.TakenLoan:28 INFO  org.example.money.TakenLoan - Creating TakenLoan instance: Bank=Monobank, Loan=Loan A This is a loan for a car -- 5.5%, TotalAmount=1000.0, TakenDate=2023-12-10
+2023-12-10 13:48:32.009 [main] org.example.login.LoanUser:63 INFO  org.example.login.LoanUser - Loan taken: Bank: Monobank
+Loan A This is a loan for a car -- 5.5%
+Sum of the loan: 1 330 -- Date of the loan: 2023-12-10
+
+2023-12-10 13:48:32.010 [main] org.example.back.JsonProcessing:100 TRACE org.example.back.JsonProcessing - Method saveData() started
+2023-12-10 13:48:32.016 [main] org.example.back.JsonProcessing:103 INFO  org.example.back.JsonProcessing - UserList was converted to JSON format string
+2023-12-10 13:48:32.016 [main] org.example.back.JsonProcessing:105 INFO  org.example.back.JsonProcessing - JSON format string was saved to file
+2023-12-10 13:48:32.017 [main] org.example.back.JsonProcessing:111 TRACE org.example.back.JsonProcessing - Method saveData() ended
+2023-12-10 13:48:32.017 [main] org.example.pattern.TakeLoan:56 INFO  org.example.pattern.TakeLoan - Loan successfully taken.

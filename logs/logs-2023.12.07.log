@@ -1,0 +1,95 @@
+2023-12-07 21:10:32.850 [main] org.example.back.JsonProcessing:25 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-07 21:10:32.851 [main] org.example.back.JsonProcessing:35 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-07 21:10:32.852 [main] org.example.Main:35 TRACE org.example.Main - Application exiting
+2023-12-07 21:11:28.791 [main] org.example.back.JsonProcessing:25 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-07 21:11:28.793 [main] org.example.back.JsonProcessing:35 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-07 21:11:28.793 [main] org.example.Main:35 TRACE org.example.Main - Application exiting
+2023-12-07 21:11:52.181 [main] org.example.back.JsonProcessing:25 TRACE org.example.back.JsonProcessing - JsonProcessing constructor started
+2023-12-07 21:11:52.185 [main] org.example.back.JsonProcessing:35 TRACE org.example.back.JsonProcessing - Method loadData() started
+2023-12-07 21:11:52.227 [main] org.example.back.JsonProcessing:46 INFO  org.example.back.JsonProcessing - All data from src/main/data\users.json was saved to userList
+2023-12-07 21:11:52.230 [main] org.example.back.JsonProcessing:60 INFO  org.example.back.JsonProcessing - All data from src/main/data\banks.json was read to bankList
+2023-12-07 21:11:52.230 [main] org.example.back.JsonProcessing:66 TRACE org.example.back.JsonProcessing - Method loadData() ended
+2023-12-07 21:11:52.230 [main] org.example.back.JsonProcessing:31 TRACE org.example.back.JsonProcessing - JsonProcessing constructor ended
+2023-12-07 21:11:52.231 [main] org.example.back.Login:28 INFO  org.example.back.Login - Logging, please provide username and password: 
+2023-12-07 21:11:52.232 [main] org.example.back.Login:31 INFO  org.example.back.Login - Enter username
+2023-12-07 21:11:59.330 [main] org.example.back.Login:35 INFO  org.example.back.Login - Enter password
+2023-12-07 21:12:01.344 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-07 21:12:01.345 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:12:01.370 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: xAMImfY7toQGMj9Y2Ke82Rg48ViT7hKxys7OzA3OQI4=
+2023-12-07 21:12:01.370 [main] org.example.back.JsonProcessing:98 TRACE org.example.back.JsonProcessing - Method checkLogin(String name, String password) started
+2023-12-07 21:12:01.370 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-07 21:12:01.371 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:12:01.371 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: DR860c52WqMIGDWF2p2Xmtjb16QDi5+Nv2kl9swpN/k=
+2023-12-07 21:12:01.371 [main] org.example.back.Hashing:28 INFO  org.example.back.Hashing - Executing SHA256 hashing.
+2023-12-07 21:12:01.371 [main] org.example.back.Hashing:22 INFO  org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:12:01.371 [main] org.example.back.Hashing:42 INFO  org.example.back.Hashing - Hashing result: DR860c52WqMIGDWF2p2Xmtjb16QDi5+Nv2kl9swpN/k=
+2023-12-07 21:12:01.372 [main] org.example.back.JsonProcessing:105 INFO  org.example.back.JsonProcessing - User Bohdan logged in successfully
+2023-12-07 21:12:01.372 [main] org.example.back.Login:45 INFO  org.example.back.Login - User Bohdan successfully logged in
+2023-12-07 21:12:01.372 [main] org.example.Main:20 TRACE org.example.Main - Application started
+2023-12-07 21:12:01.372 [main] org.example.Main:23 INFO  org.example.Main - Initializing menu...
+2023-12-07 21:12:01.372 [main] org.example.back.Menu:33 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-07 21:12:04.304 [main] org.example.back.Menu:46 INFO  org.example.back.Menu - /exit -- stop program execution
+2023-12-07 21:12:04.304 [main] org.example.back.Menu:33 INFO  org.example.back.Menu - Enter your command (see /help): 
+2023-12-07 21:33:11.335 [main] org.example.back.Hashing:27 TRACE org.example.back.Hashing - Starting [String SHA256()] function
+2023-12-07 21:33:11.339 [main] org.example.back.Hashing:21 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:33:11.357 [main] org.example.back.Hashing:41 INFO  org.example.back.Hashing - Hashing result: 2tEsTk52GOJlvk/HyWP1lNU9jpA/2sYwCMM5xjK0KXs=
+2023-12-07 21:33:11.357 [main] org.example.back.Hashing:42 TRACE org.example.back.Hashing - Ending [String SHA256()]
+2023-12-07 21:33:11.368 [main] org.example.back.Hashing:21 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:52:53.474 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:52:53.477 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:52:53.488 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:52:53.488 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:52:53.490 [main] org.example.back.Hashing:31 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 21:55:04.496 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:55:15.178 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:55:46.223 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:55:46.228 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:56:18.776 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:56:18.781 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:57:16.125 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:57:16.137 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:57:37.888 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:57:40.784 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 21:59:10.777 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 21:59:10.780 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:04:44.885 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:04:44.888 [main] org.example.back.Hashing:47 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:04:52.509 [main] org.example.back.Hashing:37 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:04:52.514 [main] org.example.back.Hashing:47 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:23:27.608 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:23:27.612 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:23:27.623 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:23:27.623 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:23:27.625 [main] org.example.back.Hashing:32 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:25:39.330 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:25:39.333 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:25:39.347 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:25:39.347 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:25:39.349 [main] org.example.back.Hashing:32 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:26:51.338 [main] org.example.back.Hashing:32 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:26:51.340 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:26:51.341 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:26:51.341 [main] org.example.back.Hashing:53 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:26:51.341 [main] org.example.back.Hashing:55 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:26:51.348 [main] org.example.back.Hashing:63 INFO  org.example.back.Hashing - To hash: HelloCodersThisIsSalt -- Hashing result: REFEMTJDNEU0RTc2MThFMjY1QkU0RkM3Qzk2M0Y1OTRENTNEOEU5MDNGREFDNjMwMDhDMzM5QzYzMkI0Mjk3Qg==
+2023-12-07 22:26:51.364 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:26:51.364 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:26:51.366 [main] org.example.back.Hashing:32 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:27:08.286 [main] org.example.back.Hashing:32 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:27:10.404 [main] org.example.back.Hashing:38 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:27:10.410 [main] org.example.back.Hashing:48 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:27:11.306 [main] org.example.back.Hashing:53 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:27:11.307 [main] org.example.back.Hashing:55 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:27:12.709 [main] org.example.back.Hashing:63 INFO  org.example.back.Hashing - To hash: HelloCodersThisIsSalt -- Hashing result: REFEMTJDNEU0RTc2MThFMjY1QkU0RkM3Qzk2M0Y1OTRENTNEOEU5MDNGREFDNjMwMDhDMzM5QzYzMkI0Mjk3Qg==
+2023-12-07 22:32:31.684 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:32:31.706 [main] org.example.back.Hashing:54 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:32:31.706 [main] org.example.back.Hashing:56 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:32:31.714 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:32:31.714 [main] org.example.back.Hashing:40 TRACE org.example.back.Hashing - Starting [String hash256()] function
+2023-12-07 22:32:31.714 [main] org.example.back.Hashing:49 TRACE org.example.back.Hashing - Ending [String hash256()]
+2023-12-07 22:32:31.715 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:32:31.715 [main] org.example.back.Hashing:34 TRACE org.example.back.Hashing - Combining password and salt.
+2023-12-07 22:36:17.669 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: invalid-date -- 3
+2023-12-07 22:36:17.674 [main] org.example.back.DateToString:26 ERROR org.example.back.DateToString - Error converting date: Text 'invalid-date' could not be parsed at index 0
+2023-12-07 22:36:19.574 [main] org.example.back.DateToString:15 INFO  org.example.back.DateToString - Date to string: 2022-01-15 -- 3
+2023-12-07 22:36:19.574 [main] org.example.back.DateToString:22 INFO  org.example.back.DateToString - DateConvertion result: 2022-04-15
